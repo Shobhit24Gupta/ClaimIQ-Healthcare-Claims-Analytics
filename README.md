@@ -58,9 +58,45 @@ ClaimIQ-Healthcare-Claims-Analytics/
 
 ---
 
-## 📂 Data Source
-- [Healthcare Provider Fraud Detection — Kaggle]
-- ICD-10 Diagnosis Codes (CMS.gov)
+# 📂 Data Sources
+
+This project uses real-world Medicare claims data publicly 
+available on Kaggle.
+
+---
+
+### Dataset 1 — Healthcare Provider Fraud Detection
+
+| File Name | Used As | Rows |
+|-----------|---------|------|
+| `Train-1542865627584.csv` | Providers Table | 5,410 |
+| `Train_Beneficiarydata-1542865627584.csv` | Patients Table | 138,556 |
+| `Train_Inpatientdata-1542865627584.csv` | Inpatient Claims | 40,474 |
+| `Train_Outpatientdata-1542865627584.csv` | Outpatient Claims | 10,151 |
+
+---
+
+### Dataset 2 — ICD-10 Diagnosis Codes
+> 🔗 Source: Cleaned and prepared
+
+| File Name | Used As | Rows |
+|-----------|---------|------|
+| `ICD10codes_clean.csv` | Diagnoses Table | 71,704 |
+
+> ⚠️ **Important:** This file uses **pipe `\|` delimiter** 
+> instead of comma used `FIELDTERMINATOR = '\|'` 
+
+---
+
+## 📊 Combined Dataset Summary
+
+| Table | Source File | Rows |
+|-------|------------|------|
+| Providers | Train-1542865627584.csv | 5,410 |
+| Patients | Train_Beneficiarydata-...csv | 138,556 |
+| Diagnoses | ICD10codes_clean.csv | 71,704 |
+| Claims | Inpatient + Outpatient combined | 50,625 |
+| **Total** | | **266,295** |
 
 ---
 
