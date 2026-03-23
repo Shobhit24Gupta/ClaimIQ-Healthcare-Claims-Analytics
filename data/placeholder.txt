@@ -1,3 +1,17 @@
-This folder contains the source datasets.
-    Datasets are from Kaggle - Healthcare Provider 
-    Fraud Detection Analysis.
+## 📂 Data Sources
+
+The datasets used in this project are publicly available 
+on Kaggle.
+
+### Dataset 1 — Healthcare Provider Fraud Detection
+- Source: Kaggle
+- Files needed:
+  - Train-1542865627584.csv          (Providers)
+  - Train_Beneficiarydata-...csv     (Patients)
+  - Train_Inpatientdata-...csv       (Inpatient Claims)
+  - Train_Outpatientdata-...csv      (Outpatient Claims)
+
+### Dataset 2 — ICD-10 Diagnosis Codes
+- Source: Generated using Claude AI
+- File: ICD10codes_clean.csv
+- Note: Pipe-delimited (|) clean version of ICD-10 codes
