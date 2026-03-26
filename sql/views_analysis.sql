@@ -289,3 +289,18 @@ GROUP BY
     pt.ChronicCond_Osteoporasis, pt.ChronicCond_Rheumatoid,
     pt.ChronicCond_Stroke;
 GO
+
+-- Run below queries and export csv files to your folder
+
+SELECT COUNT(ClaimID) AS Total_Claims, COUNT(DISTINCT BeneID) AS Total_Patients,
+       COUNT(DISTINCT ProviderID) AS Total_Providers, SUM(InscClaimAmtReimbursed) AS Total_Paid,
+       SUM(DeductibleAmtPaid) AS Total_Deductible,
+       SUM(InscClaimAmtReimbursed) + SUM(DeductibleAmtPaid) AS Total_Billed,
+       ROUND(AVG(InscClaimAmtReimbursed), 2) AS Avg_Paid_Per_Claim
+FROM dbo.Claims;
+
+SELECT * FROM dbo.vw_ClaimsByType;
+SELECT * FROM dbo.vw_ProviderSummary;
+SELECT * FROM dbo.vw_PatientDemographics;
+SELECT * FROM dbo.vw_MonthlyTrends;
+SELECT * FROM dbo.vw_PatientRiskProfile;
