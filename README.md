@@ -31,16 +31,16 @@ This project analyzes Medicare claims data to:
 | Dashboard 4 — Monthly Trends | Claim volume & revenue trends over 14 months |
 
 ### Dashboard 1 — Claims Overview
-![Claims Overview](screenshots/dashboard1_claims_overview.png)
+![Claims Overview](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard1-ClaimsOverview?publish=yes)
 
 ### Dashboard 2 — Fraud Analytics
-![Fraud Analytics](screenshots/dashboard2_fraud_analytics.png)
+![Fraud Analytics](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard2-FraudAnalytics?publish=yes)
 
 ### Dashboard 3 — Patient Insights
-![Patient Insights](screenshots/dashboard3_patient_insights.png)
+![Patient Insights](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard3-PatientInsights?publish=yes)
 
 ### Dashboard 4 — Monthly Trends
-![Monthly Trends](screenshots/dashboard4_monthly_trends.png)
+![Monthly Trends](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard4-MonthlyTrends?publish=yes)
 
 ---
 
