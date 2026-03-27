@@ -1,4 +1,3 @@
--- This folder contains all SQL scripts.
 
 /*
 =============================================================
@@ -31,9 +30,7 @@ GO
    Staging tables store RAW data exactly as it is in the CSV.
    Every column is VARCHAR so SQL Server accepts anything —
    "NA", quoted values, mixed date formats — no errors!
-   
-   We will clean and fix the data AFTER loading.
-============================================================ */
+   ============================================================ */
  
 -- Drop staging tables if they exist
 IF OBJECT_ID('stg_Providers',   'U') IS NOT NULL DROP TABLE stg_Providers;
