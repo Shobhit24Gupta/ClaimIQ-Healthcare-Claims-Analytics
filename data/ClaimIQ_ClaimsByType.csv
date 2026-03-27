@@ -1,0 +1,3 @@
+﻿ClaimType,Total_Claims,Unique_Patients,Unique_Providers,Total_Paid,Avg_Paid_Per_Claim,Min_Claim_Amount,Max_Claim_Amount
+Inpatient,40474,31289,2092,408297020,10087.88,0,125000
+Outpatient,10151,2646,2276,3010680,296.59,0,102500
