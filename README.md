@@ -20,8 +20,14 @@ This project analyzes Medicare claims data to:
 
 ---
 
-## 📊 Live Tableau Dashboard
-🔗 [View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard4-MonthlyTrends)
+## 📊 Live Tableau Dashboards
+| Dashboard | Link |
+|-----------|------|
+| Claims Overview | [View](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard1-ClaimsOverview?publish=yes) |
+| Fraud Analytics | [View](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard2-FraudAnalytics?publish=yes) |
+| Patient Insights | [View](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard3-PatientInsights?publish=yes) |
+| Monthly Trends | [View](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard4-MonthlyTrends?publish=yes) |
+
 
 | Dashboard | Description |
 |-----------|-------------|
@@ -31,16 +37,16 @@ This project analyzes Medicare claims data to:
 | Dashboard 4 — Monthly Trends | Claim volume & revenue trends over 14 months |
 
 ### Dashboard 1 — Claims Overview
-![Claims Overview](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard1-ClaimsOverview?publish=yes)
+![Claims Overview](screenshots/dashboard1_claims_overview.png)
 
 ### Dashboard 2 — Fraud Analytics
-![Fraud Analytics](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard2-FraudAnalytics?publish=yes)
+![Fraud Analytics](screenshots/dashboard2_fraud_analytics.png)
 
 ### Dashboard 3 — Patient Insights
-![Patient Insights](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard3-PatientInsights?publish=yes)
+![Patient Insights](screenshots/dashboard3_patient_insights.png)
 
 ### Dashboard 4 — Monthly Trends
-![Monthly Trends](https://public.tableau.com/app/profile/shobhit.gupta6409/viz/HealthcareClaimsAnalytics/Dashboard4-MonthlyTrends?publish=yes)
+![Monthly Trends](screenshots/dashboard4_monthly_trends.png)
 
 ---
 
